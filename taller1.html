@@ -25,6 +25,7 @@
   <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link href="css/clasificacion.css" rel="stylesheet" href="">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -43,7 +44,7 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="indx_adulto.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">Warming Atelier</span>
       </a>
@@ -276,7 +277,7 @@
       <li class="nav-heading">Pages</li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="index.html">
+        <a class="nav-link collapsed" href="indx_adulto.html">
           <i class="bi bi-grid"></i>
           <span>Talleres</span>
         </a>
@@ -348,6 +349,21 @@
                   <br>
                   <div class="btn-container"><button class="btn-acpt"><a href="formulario_taller.html" style="color: white;">Registrar taller</a></button>
                   </div>
+                  <form>
+                    <p class="classif">Ya has estado en este taller?, Clasificanos!</p>
+                    <p class="clasificacion">
+                      <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                      --><label for="radio1">★</label><!--
+                      --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                      --><label for="radio2">★</label><!--
+                      --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                      --><label for="radio3">★</label><!--
+                      --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                      --><label for="radio4">★</label><!--
+                      --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                      --><label for="radio5">★</label>
+                    </p>
+                  </form>
                 </div>
               </div>
             </div>
