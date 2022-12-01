@@ -372,17 +372,18 @@ h6 {
 --------------------------------------------------------------*/
 .logo {
   line-height: 1;
+  width: 500px;
 }
 
 @media (min-width: 1200px) {
   .logo {
-    width: 280px;
+    width: 500px;
   }
 }
 
 .logo img {
-  max-height: 26px;
-  margin-right: 6px;
+  max-height: 50px;
+  margin-right: 25px;
 }
 
 .logo span {
