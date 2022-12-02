@@ -21,7 +21,6 @@
   }
   
   .clasificacion {
-    text-align: center;
     direction: rtl;
     unicode-bidi: bidi-override;
   }
