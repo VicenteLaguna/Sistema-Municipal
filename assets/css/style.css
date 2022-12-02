@@ -418,8 +418,9 @@ h6 {
 }
 
 .logo img {
-  max-height: 90px;
-  margin-right: 40px;
+  margin-left: 22%;
+  max-height: 150px;
+  margin-right: 150px;
 }
 
 .logo_nav img {
