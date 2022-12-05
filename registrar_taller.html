@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Regístrate</title>
+  <title>Registro Taller</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -48,9 +48,8 @@
             <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
               <div class="d-flex justify-content-center py-4">
-                <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">Warming Atelier</span>
+                <a href="" class="logo d-flex align-items-center w-auto">
+                  <img src="assets/img/logo_municipal.png" alt="">
                 </a>
               </div><!-- End Logo -->
 
@@ -59,61 +58,64 @@
                 <div class="card-body">
 
                   <div class="pt-4 pb-2">
-                    <h5 class="card-title text-center pb-0 fs-4">Crea una Taller</h5>
-                    <p class="text-center small">Por favor, ingresa los datos solicitados a continuación.</p>
+                    <h5 class="card-title text-center pb-0 fs-4">Registrar taller</h5>
+                    <p class="text-center small">Por favor, completa los siguientes campos.</p>
                   </div>
 
                   <form class="row g-3 needs-validation" novalidate>
                     <div class="col-12">
-                      <label for="yourName" class="form-label">Rut</label>
+                      <label for="yourName" class="form-label">Codigo de taller</label>
                       <input type="text" name="rut" class="form-control" id="yourName" required>
-                      <div class="invalid-feedback">Debes ingresar tu rut.</div>
+                      <div class="invalid-feedback">Debes ingresar el codigo.</div>
                     </div>
                     
                     <div class="col-12">
-                      <label for="yourName" class="form-label">Nombres</label>
+                      <label for="yourName" class="form-label">Nombre de Taller</label>
                       <input type="text" name="name" class="form-control" id="yourName" required>
-                      <div class="invalid-feedback">Debes ingresar tu nombre.</div>
+                      <div class="invalid-feedback">Debes ingresar el nombre.</div>
                     </div>
 
                     <form class="row g-3 needs-validation" novalidate>
                       <div class="col-12">
-                        <label for="yourName" class="form-label">Apellido Paterno</label>
+                        <label for="yourName" class="form-label">Descripcion breve</label>
                         <input type="text" name="appaterno" class="form-control" id="yourName" required>
-                        <div class="invalid-feedback">Debes ingresar un apellido.</div>
+                        <div class="invalid-feedback">Debes ingresar una descripcion.</div>
                       </div>
 
                       <form class="row g-3 needs-validation" novalidate>
                         <div class="col-12">
-                          <label for="yourName" class="form-label">Apellido Materno</label>
+                          <label for="yourName" class="form-label">Cantidad de personas</label>
                           <input type="text" name="apmaterno" class="form-control" id="yourName" required>
                           <div class="invalid-feedback">Debes ingresar un apellido.</div>
                         </div>
+                      <form class="row g-3 needs-validation" novalidate>
+                          <div class="col-12">
+                            <label for="yourName" class="form-label">Área relacionada:</label>
+                            <br>
+                            <select name="select">
+                              <option value="value2">Actividad Física</option>
+                              <option value="value1">Arte</option>
+                              <option value="value2">Manualidades y Oficios</option>
+                              <option value="value2">Tecnologia</option>
+                            </select>
+                          </div>
+                      <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-12">
+                              <label for="yourName" class="form-label">Horario:</label>
+                              <br>
+                              <select name="select">
+                                <option value="value2">Matutino</option>
+                                <option value="value1">Diurno</option>
+                                <option value="value2">Vespertino</option>
+                            
+                              </select>
+                            </div>
 
                     <div class="col-12">
-                      <label for="yourEmail" class="form-label">Correo</label>
-                      <input type="email" name="email" class="form-control" id="yourEmail" required>
-                      <div class="invalid-feedback">Debes ingresar un correo.</div>
-                    </div>
-
-                    <div class="col-12">
-                      <label for="yourPassword" class="form-label">Contraseña</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword" required>
-                      <div class="invalid-feedback">Por favor, escoge una contraseña.</div>
-                    </div>
-
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
-                        <label class="form-check-label" for="acceptTerms">Estoy de acuerdo y acepto los <a href="#">terminos y condiciones</a></label>
-                        <div class="invalid-feedback">Debes estar de acuerdo antes de registrarte.</div>
-                      </div>
+                      <button class="btn btn-primary w-100" type="submit">Registrar</button>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">Create Account</button>
-                    </div>
-                    <div class="col-12">
-                      <p class="small mb-0">ya tienes una cuenta? <a href="login.html">Ingresar</a></p>
+                      <button style="background-color:red ;" class="btn btn-primary w-100" type="submit"><a style="color: white;" href="indx_funcionario.html">Cancelar</a></button>
                     </div>
                   </form>
 
